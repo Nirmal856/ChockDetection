@@ -1,0 +1,13 @@
+train: /Users/nirmal-10730/PycharmProjects/BuildMoniter/src/data_gen/feature/train/images
+val: /Users/nirmal-10730/PycharmProjects/BuildMoniter/src/data_gen/feature/valid/images
+test: /Users/nirmal-10730/PycharmProjects/BuildMoniter/src/data_gen/feature/test/images
+
+nc: 2
+names: ['chock off', 'chock on']
+
+roboflow:
+  workspace: chock
+  project: custom-workflow-object-detection-ie17c
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chock/custom-workflow-object-detection-ie17c/dataset/1
