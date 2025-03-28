@@ -1,1 +1,3 @@
+For model Taraining - yolo task=detect mode=train data=data.yaml model=yolov8n.pt epochs=50 imgsz=640 device=mps
+
 
